@@ -59,10 +59,13 @@ Trains the model and evaluates accuracy degradation
 
 ## 📈 Results Summary
 
-Baseline (Simple CNN) - 82.5% (Clean Accuracy) - 10.0% FGSM (Adversarial Accuracy)
-Adversarial Training(FGSM) - 82.5% (Clean Accuracy) - 70.0%  (Adversarial Accuracy)
-Differential Privacy (DP) - 80% (Clean Accuracy) - 60.0-70.0% (Adversarial Accuracy)
-Poisoning Attack - 77.5% (Clean Accuracy) - intended misclassify rate now shown (Adversarial Accuracy)
+| Method                         | Clean Accuracy | Adversarial Accuracy (FGSM)     |
+|-------------------------------|----------------|----------------------------------|
+| Baseline (Simple CNN)         | 82.5%          | 10.0%                            |
+| Adversarial Training (FGSM)   | 82.5%          | 70.0%                            |
+| Differential Privacy (DP)     | 80.0%          | 60.0–70.0%                       |
+| Poisoning Attack              | 77.5%          | Intended misclassification rate (not explicitly shown) |
+
 
 ## 🧪 Note: These numbers vary depending on dataset splits and noise levels.
 
