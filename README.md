@@ -57,13 +57,14 @@ Assigns all poisoned samples to a target class
 
 Trains the model and evaluates accuracy degradation
 
-📈 Results Summary
-Experiment	Clean Accuracy	Adversarial Accuracy
-Baseline (Simple CNN)	82.5%	10.0% (FGSM)
-Adversarial Training (FGSM)	82.5%	70.0%
-Differential Privacy (DP)	~80%	~60–70% (robustness)
-Poisoning Attack	77.5%	(intended misclassify rate not shown)
-🧪 Note: These numbers vary depending on dataset splits and noise levels.
+## 📈 Results Summary
+
+Baseline (Simple CNN) - 82.5% (Clean Accuracy) - 10.0% FGSM (Adversarial Accuracy)
+Adversarial Training(FGSM) - 82.5% (Clean Accuracy) - 70.0%  (Adversarial Accuracy)
+Differential Privacy (DP) - 80% (Clean Accuracy) - 60.0-70.0% (Adversarial Accuracy)
+Poisoning Attack - 77.5% (Clean Accuracy) - intended misclassify rate now shown (Adversarial Accuracy)
+
+## 🧪 Note: These numbers vary depending on dataset splits and noise levels.
 
 🖼️ Visualizations
 ✅ Original vs ❌ Adversarial predictions
@@ -72,21 +73,21 @@ Poisoning Attack	77.5%	(intended misclassify rate not shown)
 
 📉 Training & validation accuracy plots
 
-🧠 Future Work
+## 🧠 Future Work
 Support for other adversarial attacks (e.g., PGD, DeepFool)
 
 Use of pretrained models or more complex architectures
 
 Integration with malware behavior analysis or hybrid features
 
-📚 References
+## 📚 References
 Ian J. Goodfellow et al., "Explaining and Harnessing Adversarial Examples", 2014
 
 Nicholas Carlini et al., "Adversarial Examples Are Not Easily Detected", 2017
 
 TensorFlow Privacy: https://github.com/tensorflow/privacy
 
-📜 License
+## 📜 License
 MIT License. Feel free to use and modify for research and education purposes.
 
 
